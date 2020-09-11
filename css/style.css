@@ -1,0 +1,863 @@
+*{
+    font-family:'Tajawal', sans-serif;
+    margin: 0px;
+    padding: 0px; 
+}
+/*------------------------------------------------------start nav and ul and sub menu--------------------------------------------------------------*/
+.nav {
+    width: 100%;
+    height: 800px;
+    background-image: url(../image/skys.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+    position: relative;
+    font-family: 'Tajawal',sans-serif;
+}
+.opacity {
+    width: 100%;
+    height: 800px;
+    background-color:#444f58;
+    opacity: 0.7;
+}
+.nav h1 {
+    font-size: 30px;
+    font-family: 'Tajawal', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: absolute;
+    top: 0%;
+    left: 6%;
+    color: #ddd;
+    cursor: pointer;
+}
+.nav h1:first-letter {
+    font-size: 35px;
+    color: #f3a008;
+}
+/*-----start ul------*/
+.nav ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-family: 'Tajawal', sans-serif;
+    position: absolute;
+    top: 3%;
+    left: 44%;
+    width: 55%;
+
+}
+.nav .menu >li {
+    text-transform: uppercase;
+    margin-left: 10%;
+    float: left;
+}
+.nav .menu >li a {
+    text-decoration: none;
+    color: rgb(188, 185, 185);
+    font-size: 18px;
+}
+.nav .menu >li a:hover {
+    color: rgb(255, 255, 255);
+}
+/*-start sub1 ul-*/
+.nav .menu .sub1 {
+    position: relative;
+}
+.nav .menu .sub1 .submenu1 {
+    position: absolute; 
+    top: 32px;
+    left: -71px;
+    width: 160px;
+    height: 120px;
+    background-color: rgb(43 43 43);
+    color: #ddd;
+    text-align: center;
+    padding-top: 2%;
+    text-transform: capitalize;
+    -webkit-box-shadow:0 1px 1px #2b2b2b;
+    -moz-box-shadow:0 1px 1px #2b2b2b;
+    box-shadow:0px 7px 10px 3px  #2b2b2b;
+    display: none;
+}
+.nav .menu .sub1 .submenu1:before {
+    content: "";
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 14px solid #2b2b2b;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: -14px;
+    left: 118px;
+
+}
+
+/*-end sub1 ul-*/
+
+/*-start sub2  ul-*/
+.nav .menu .sub2 {
+    position: relative;
+}
+.nav .menu .sub2 .submenu2 {
+    position: absolute; 
+    top: 33px;
+    left: -69px;
+    width: 162px;
+    height: 170px;
+    background-color: rgb(43 43 43);
+    color: #ddd;
+    text-align: center;
+    padding-top: 2%;
+    text-transform: capitalize;
+    -webkit-box-shadow:0 1px 1px #2b2b2b;
+    -moz-box-shadow:0 1px 1px #2b2b2b;
+    box-shadow:0px 7px 10px 3px  #2b2b2b;
+    display: none;
+}
+.nav .menu .sub2 .submenu2:before {
+    content: "";
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 14px solid #2b2b2b;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: -14px;
+    left: 128px; 
+}
+/*-end sub2  ul-*/
+.nav .menu .sub1:hover .submenu1{
+    
+    display: block;
+}
+.nav .menu .sub2:hover .submenu2{
+   
+    display: block;
+}
+/*-end   ul-*/
+/*-start span one , two , p three and button -*/
+
+.nav #one {
+    position:absolute;
+    top: 40%;
+    left: 42%;
+    font-size: 40px;
+    color: #f3a008;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.nav #two {
+    position: absolute;
+    top: 40%;
+    left: 52%;
+    font-size: 40px;
+    color: #5ac2fb;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.nav #three {
+    position: absolute;
+    top: 50%;
+    left: 29%;
+    color: #FFF;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.nav #button {
+    position: absolute;
+    top: 58%;
+    left: 48.5%;
+    width:115px;
+    padding: 10px 0px ;
+    font-size: 15px;
+    color: #000;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.nav #button:hover {
+    background: #adaeaf;
+}
+
+/*-----------------------------------------------end span one , two , p three and button-------------------------------------------- -*/
+/*----------------------------------------------------start about is have four sectios------------------------------------------------*/
+
+.about {
+    width: 100%;
+    height: 850px;
+    background-image: url(../image/city.jpg);
+    background-size: 100% 850px;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: 'Tajawal', sans-serif;
+
+}
+.about .opacity2 {
+    width: 100%;
+    height: 850px;
+    background-color: #1f2323;
+    opacity: 0.7;
+    z-index: 1;
+    
+}
+.about .nameabout {
+    color: #455a6159;
+    position: absolute;
+    top: 21%;
+    left: 6%;
+    text-transform: uppercase;
+    font-size: 400px;
+    
+    
+}
+
+.about .item {
+    width: 100%;
+    height: 477px;
+    float: left;
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    z-index: 3;
+   
+}
+.about .item .item1 {
+    width: 20%;
+    float: left;
+    margin-left: 3.5%;
+    padding-top: 2%;
+    color: #fff;
+    font-family: 'Tajawal', sans-serif;
+    text-transform: capitalize;
+    position: relative;
+}
+.about .item1 .i1{
+    background-color: #5ac2fb;
+    width: 93px;
+    height: 78px;
+    border: solid 3px #fff;
+    box-shadow:0px 0px 20px 8px #fff6;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 35%;
+}
+.about .item1 .i1 i{
+    color: #fff;
+    font-size: 45px;
+    position: absolute;
+    top: 21%;
+    left: 28%;
+    cursor: pointer;
+}
+.about .item1 .all {
+    display: block;
+    padding-top: 10%;
+    margin:0% 0% 10% 10%;
+    width: 240px;
+    height: 50px;
+    border-bottom: solid thin #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.about .item .all2 {
+    width: 195px;
+    height:300px;
+    margin: 0% 0% 10% 17%;
+
+}
+.about .item1 .i3{
+    background-color: #5ac2fb;
+    width: 93px;
+    height: 78px;
+    border: solid 3px #fff;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 33%;
+    box-shadow:0px 0px 20px 8px #fff6;
+}
+.about .item1 .i3 i{
+    color: #fff;
+    font-size: 45px;
+    position: absolute;
+    top: 21%;
+    left: 25%;
+    cursor: pointer;
+}
+.about .item1 .i4{
+    background-color: #5ac2fb;
+    width: 93px;
+    height: 78px;
+    border: solid 3px #fff;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 33%;
+    box-shadow:0px 0px 20px 8px #fff6;
+}
+.about .item1 .i4 i{
+    color: #fff;
+    font-size: 45px;
+    position: absolute;
+    top: 21%;
+    left: 25%;
+    cursor: pointer;
+}
+.about .item1 #readmore {
+    width: 110px;
+    font-size: 15px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 105%;
+    left: 18%;
+    border: none;
+    border-radius: 20px;
+    padding: 2%;
+    color: #FFF;
+    background-color: #46c6da;
+    font-weight: bold;
+    cursor: pointer;   
+    box-shadow:0px 0px 10px 5px #fff;
+    display:block;
+}
+.about .item1 #readmore:hover {
+    background: none;
+    border: solid thin #ffffff;
+    box-shadow: none;
+}
+.about .item1 .i1:hover {
+    box-shadow: 0px 0px 20px 8px #5ad6fb;
+}
+.about .item1 .i3:hover {
+    box-shadow: 0px 0px 20px 8px #5ad6fb;
+}
+.about .item1 .i4:hover {
+    box-shadow: 0px 0px 20px 8px #5ad6fb;
+}
+
+/*------------------------------------------------------------end   about ------------------------------------------------------------*/
+
+/*------------------------------------------------------------start sections------------------------------------------------------------*/
+#sections {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    font-family: 'Tajawal', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff;
+
+}
+/*--start left part--*/
+#sections .leftpart {
+    width: 45%;
+    height: 800px;
+    background-color: #575f67;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    float: left;
+}
+#sections .leftpart  .spansec {
+    display: inline-block;
+    margin: 14% 0% 6% 25%;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 360px;
+    height: 50px;
+    border-bottom: solid thin #fff;
+    color: #fff;
+    cursor: pointer;
+}
+#sections .leftpart .prar {
+    margin: 0% 0% 0% 25%;
+    font-family:'Tajawal', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    width: 350px;
+
+}
+#sections .leftpart .ulsec {
+    list-style: none;
+    margin: 18% 0% 0% 25%;
+}
+#sections .leftpart .ulsec li {
+    margin:2% 0% 5% 0%;
+}
+#sections .leftpart .ulsec li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+#sections .leftpart .ulsec li a:hover {
+    color: #ffaa41;
+}
+/*--end left part--*/
+/*--start right part--*/
+#sections .rightpart {
+    width: 55%;
+    height: 800px;
+    background-color: #ffffff;
+    float: left;
+}
+#sections .rightpart .imagepart {
+    width: 97%;
+    margin-left: 3%;
+    margin-top: 5%;
+    float: left;
+    padding: 0px;
+    
+}
+#sections .rightpart .imagepart img {
+    width: 49%;
+    height: 245px;
+    margin: -3px;
+    padding: 0px;
+    cursor: pointer;
+    
+}
+#sections .rightpart .imagepart img:hover {
+    border: none;
+    opacity: 0.7;
+}
+/*--end right part--*/
+
+/*------------------------------------------------------------end sections------------------------------------------------------------*/
+
+/*------------------------------------------------------------start join us-----------------------------------------------------------*/
+#joinus {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    font-family: 'Tajawal', sans-serif;
+    background-image: url(../image/building.jpg);
+    background-size: 100% 800px;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+#joinus .opacity3 {
+    width: 100%;
+    height: 800px;
+    background-color:#444f58;
+    opacity: 0.7;
+    z-index: 1;
+
+}
+/*-- start left join us */
+
+#joinus .leftjo {
+    width: 45%;
+    height: 800px;
+    float: left;
+    z-index: 2;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    font-family: 'Tajawal', sans-serif;
+
+}
+#joinus .leftjo .spanjo {
+    color: #fff;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+    text-transform: uppercase;
+    margin: 10% 0% 5% 25%;
+    display: inline-block;
+    border-bottom: solid thin #fff;
+    width: 350px;
+    height: 50px;
+    z-index: 4;
+    cursor: pointer;
+
+}
+
+#joinus .leftjo .prarjo {
+    color: #fff;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: 'Tajawal', sans-serif;
+    text-transform: capitalize;
+    width: 55%;
+    height: 175px;
+    margin: 0% 0% 0% 25%;
+}
+#joinus .leftjo .boxform {
+    width: 55%;
+    height: 420px;
+    margin: 2% 25% 0% 25%;
+    background-color: #0a0a0a;
+    position: relative;
+    display: inline-block;
+    padding-top: 5%;
+    border-radius: 20px;
+    font-family: 'Tajawal', sans-serif;
+}
+#joinus .boxform .facebook {
+    width: 202px;
+    display: block;
+    padding: 2%;
+    margin: 5% auto;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #0008ff;
+    cursor: pointer;
+}
+#joinus .boxform .google {
+    width: 202px;
+    display: block;
+    padding: 2%;
+    margin: 5% auto;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+}
+#joinus .boxform .facebook:hover {
+    background-color: #3c42f8;
+}
+#joinus .boxform .google:hover {
+    background-color: #e2dcdc;
+}
+#joinus .boxform input[type="text"],[type="password"],[type="email"] {
+    display: block;
+    margin: 5% auto;
+    padding: 3%;
+    border: none;
+    border-radius: 5px;
+    background-color: #2b2b2b;
+    color: #fff;
+    font-size: 15px;
+    width: 180px;
+}
+#joinus .boxform ::placeholder {
+    color: rgb(218, 218, 218);
+    text-align: center;
+    text-transform: capitalize;
+
+}
+#joinus .boxform input[type="submit"] {
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    margin: 0% 35%;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #620294;
+    color: #fff;
+}#joinus .boxform input[type="submit"]:hover {
+    background: none;
+    border: solid 2px #8606c7;
+}
+#joinus .boxform .haveacc {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: 3% 0% 0% 20%;
+}
+#joinus .boxform .haveacc a[href="#"] {
+    color: rgb(204, 204, 204);
+    text-decoration: none;
+}
+#joinus .boxform .haveacc a[href="##"]{
+    color: #30f;
+}
+#joinus .boxform .haveacc a[href="##"]:hover {
+    color: #6041de;
+}
+/*----------------------------------------------------------------end left join us-----------------------------------------------------------*/
+
+/*-- -------------------------------------------------------------start right join us -----------------------------------------------------*/
+#joinus .rightjo {
+    width: 55%;
+    height: 800px;
+    float: left;
+    z-index: 2;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Tajawal', sans-serif;
+}
+#joinus .rightjo .imgjoin {
+    width: 670px;
+    height: 300px;
+    margin: 20% 0% 0% 5.5%;
+    cursor: pointer;
+}
+#joinus .rightjo .prarjoin {
+    width: 620px;
+    height: 140px;
+    margin: -1% 0% 0% 5.5%;
+    color: #000;
+    font-size: 18px;
+    text-transform: capitalize;
+    background-color: #fff;
+    padding: 25px 25px 0px 25px ; 
+}
+#joinus .rightjo .prarjoin .prar1 {
+    color: #000;
+    font-weight: bold;
+}
+#joinus .rightjo .prarjoin .prar2 {
+    color: rgb(91, 183, 253);
+    cursor: pointer;
+}
+#joinus .rightjo .prarjoin .prar3 {
+    color: rgb(84, 84, 104)
+}
+/*--end right join us--*/
+/*-----------------------------------------------------------------end join us ----------------------------------------------------------*/
+
+/*----------------------------------------------------------------start contact us--------------------------------------------------------*/
+#contactus {
+    width: 100%;
+    height: 800px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Tajawal', sans-serif;
+}
+#contactus .top-part {
+    width: 100%;
+    height: 300px;
+    background-color: #555c65;
+}
+#contactus .top-part .span-cont {
+    width: 280px;
+    height: 50px;
+    margin: 3% 0% 1% 40%;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    border-bottom: solid thin #fff;
+}
+#contactus .top-part .prar-cont {
+    width: 420px;
+    margin: 0% 0% 1% 36%;
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+#contactus .top-part input {
+    width: 170px;
+    height: 35px;
+    margin: 1% 0% 0% 44%;
+    border: none;
+    border-radius: 20px;
+    background-color: #13beff;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#contactus .top-part input:hover {
+    background: none;
+    border: solid thin #13beff;
+}
+#contactus .mapadd {
+    width: 100%;
+    height: 500px;
+}
+#contactus .mapadd iframe {
+    width: 100%;
+    height: 500px;
+}
+/*--------------------------------------------------------------------end contact us------------------------------------------------------*/
+
+/*------------------------------------------------------------------ start footer page--------------------------------------------------*/
+#footerpage {
+    width: 100%;
+    height: 130px;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Tajawal', sans-serif;
+    background-color: #32373e;
+}
+/*--start one footer page*/
+#footerpage .onefoot {
+    float: left;
+    width: 22%;
+    height: 100px;
+    margin: 1% 0% 0% 2%;
+    border-right: solid thin #78797b;
+}
+#footerpage .onefoot h2 {
+    font-size: 23px;
+    font-family: 'Tajawal', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ddd;
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+}
+#footerpage .onefoot h2:first-letter {
+    font-size: 30px;
+    color: #f3a008;
+    margin-right: 2%;
+}
+#footerpage .onefoot .prarmain {
+    color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+#footerpage .onefoot .prarmain i {
+    color: #f3a008;
+    font-size: 20px;
+}
+#footerpage .onefoot .prarmain i:hover {
+    color: rgb(58, 180, 255);
+    cursor: pointer;
+}
+/*--end one footer page*/
+
+/*--start two footer page*/
+#footerpage .twofoot {
+    float: left;
+    width: 22%;
+    height: 100px;
+    margin: 1% 0% 0% 2%;
+    border-right: solid thin #78797b;
+}
+#footerpage .twofoot .loca {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0% 0% 0% 30%;
+}
+#footerpage .twofoot .loca:first-letter {
+    font-size: 30px;
+    color: #f3a008;
+    margin-right: 2%;
+}
+#footerpage .twofoot .addloca {
+    float: left;
+    text-align: center;
+    width: 45%;
+    border-right: solid thin #78797b;
+    margin: 0% 0% 0% 0%;
+    text-transform: uppercase;
+}
+#footerpage .twofoot .addloca2 {
+    float: left;
+    text-align: center;
+    width: 45%;
+    margin: 0% 0% 0% 2%;
+}
+#footerpage .twofoot .addloca2 span {
+    color: rgb(255, 0, 0);
+}
+#footerpage .twofoot a {
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+}
+/*--end two footer page---*/
+
+/*--start three footer page--*/
+#footerpage .threefoot {
+    float: left;
+    width: 22%;
+    height: 100px;
+    margin: 1% 0% 0% 2%;
+    border-right: solid thin #78797b;
+}
+#footerpage .threefoot .addinfo {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0% 0% 0% 20%;
+}
+#footerpage .threefoot .addinfo:first-letter {
+    font-size: 30px;
+    color: #f3a008;
+    margin-right: 2%;
+}
+#footerpage .threefoot .info1 {
+    height: 30px;
+    color: #fff;
+    font-size: 16.5px;
+}
+#footerpage .threefoot .info1 i {
+    margin: 0% 3% 0% 21%;
+    font-size: 15px;
+    color: #f3a008;
+    cursor: pointer;
+}
+/*--end three footer page--*/
+
+/*--start four footer page--*/
+#footerpage .fourfoot {
+    float: left;
+    width: 22%;
+    height: 100px;
+    margin: 1% 0% 0% 2%;
+}
+#footerpage .fourfoot .addicon {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0% 0% 0% 25%
+}
+#footerpage .fourfoot .addicon:first-letter {
+    font-size: 30px;
+    color: #f3a008;
+    margin-right: 2%;
+}
+#footerpage .fourfoot .iconsocial {
+    width: 100%;
+    height: 70px;
+    float: left;
+    margin-left: 5%;
+}
+#footerpage .fourfoot .iconsoc {
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 10%;
+    height: 30px;
+    margin: 2% 0% 0% 5%;
+    display: inline-block;
+    position: relative;
+}
+#footerpage .fourfoot .iconsoc i {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+#footerpage .fourfoot .iconsoc i:hover {
+    color: #f3a008;
+    cursor: pointer;
+}
+/*--end four footer page---*/
+
+/*--------- ----------------------------------------------------------end footer page------------------------------------------------*/
